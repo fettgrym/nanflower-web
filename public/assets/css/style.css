@@ -548,24 +548,31 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   .footer-inner{grid-template-columns:1fr 1fr}
 }
 
-/* mobile: soft see-through wash + tighter shadow behind the hero copy */
+/* mobile: a light frosted plate behind the intro text + button row,
+   so the photo stays visible instead of being darkened */
 @media (max-width:820px){
-  .hero-copy{position:relative;isolation:isolate}
-  .hero-copy::before{
-    content:"";position:absolute;z-index:-1;pointer-events:none;
-    top:-30px;bottom:-26px;left:-100vw;right:-100vw;
-    background:linear-gradient(180deg,
-      rgba(10,7,5,0) 0%,
-      rgba(10,7,5,.58) 15%,
-      rgba(10,7,5,.68) 36%,
-      rgba(10,7,5,.68) 76%,
-      rgba(10,7,5,.52) 89%,
-      rgba(10,7,5,0) 100%);
+  .hero h1{text-shadow:0 1px 2px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.4),0 12px 48px rgba(0,0,0,.3)}
+  .hero .eyebrow{color:rgba(246,239,229,.92);text-shadow:0 1px 6px rgba(0,0,0,.55)}
+
+  .hero-lede{
+    color:rgba(249,243,235,.97);
+    text-shadow:0 1px 2px rgba(0,0,0,.45);
+    background:rgba(16,11,9,.32);
+    border:1px solid rgba(246,239,229,.12);
+    border-radius:6px;
+    padding:14px;
+    margin-inline:-14px;
+    margin-bottom:22px;
   }
-  .hero h1{text-shadow:0 1px 2px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.45),0 12px 48px rgba(0,0,0,.35)}
-  .hero-lede{color:rgba(246,239,229,.94);text-shadow:0 1px 2px rgba(0,0,0,.45),0 2px 12px rgba(0,0,0,.4)}
-  .hero .eyebrow{color:rgba(246,239,229,.9);text-shadow:0 1px 6px rgba(0,0,0,.55)}
-  .status{background:rgba(10,7,5,.55)}
+
+  .hero-actions .btn-outline{
+    background:rgba(16,11,9,.46);
+    border-color:rgba(246,239,229,.55);
+    -webkit-backdrop-filter:blur(8px);
+    backdrop-filter:blur(8px);
+  }
+  .hero-actions .btn-outline:hover{background:rgba(16,11,9,.6);border-color:rgba(246,239,229,.8)}
+  .status{background:rgba(10,7,5,.5)}
 }
 
 @media (max-width:720px){
@@ -582,7 +589,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   .hero-actions{gap:10px}
   .hero-actions .btn{flex:1 1 0;min-width:0;padding:14px 14px;font-size:13px}
   .hero-scrim{background:
-    linear-gradient(180deg,rgba(10,7,5,.9) 0%,rgba(10,7,5,.66) 38%,rgba(10,7,5,.6) 66%,rgba(10,7,5,.92) 100%);}
+    linear-gradient(180deg,rgba(10,7,5,.86) 0%,rgba(10,7,5,.5) 34%,rgba(10,7,5,.48) 70%,rgba(10,7,5,.9) 100%);}
   .hero-status{margin-top:22px}
   .map-link{display:none}
   .header-inner{gap:14px}
@@ -594,6 +601,11 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   .footer-inner{grid-template-columns:1fr;gap:32px}
   .footer-bottom{flex-direction:column;gap:6px}
   .fact-list{max-width:none}
+}
+
+@media (max-width:400px){
+  .hero .eyebrow{font-size:9px;letter-spacing:.16em;gap:9px}
+  .hero .eyebrow-rule{width:16px}
 }
 
 @media (max-width:520px){
