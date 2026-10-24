@@ -60,7 +60,7 @@ button{font:inherit;color:inherit}
   margin:0 0 20px;
   font-family:var(--font-sans);font-size:10.5px;font-weight:500;
   letter-spacing:.24em;text-transform:uppercase;
-  color:rgba(23,17,14,.52);
+  color:rgba(23,17,14,.6);
 }
 .eyebrow-rule{display:block;width:26px;height:1px;background:currentColor;opacity:.55;flex:none}
 .eyebrow-light{color:rgba(246,239,229,.62)}
@@ -250,7 +250,7 @@ body.menu-open .site-header .mark{color:var(--red)}
   padding:22px 0 24px;
 }
 .hero-fact + .hero-fact{border-left:1px solid rgba(246,239,229,.13);padding-left:clamp(18px,3vw,40px)}
-.hero-fact-label{font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:rgba(246,239,229,.44)}
+.hero-fact-label{font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:rgba(246,239,229,.6)}
 .hero-fact-value{font-size:clamp(.86rem,1.05vw,.98rem);color:rgba(246,239,229,.9);letter-spacing:.01em}
 a.hero-fact-value{text-decoration:underline;text-decoration-color:rgba(246,239,229,.28);text-underline-offset:4px;transition:text-decoration-color .3s}
 a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
@@ -269,7 +269,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   align-items:end;margin-bottom:clamp(40px,5vw,68px);
 }
 .section-head-tight{margin-bottom:clamp(32px,4vw,52px)}
-.section-note{margin:0;font-size:.93rem;line-height:1.75;color:rgba(23,17,14,.6);max-width:36ch;justify-self:end}
+.section-note{margin:0;font-size:.93rem;line-height:1.75;color:rgba(23,17,14,.66);max-width:36ch;justify-self:end}
 
 /* ---------- Welcome split ---------- */
 
@@ -288,7 +288,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   margin:0;font-family:var(--font-display);font-style:italic;font-weight:400;
   font-size:clamp(1.16rem,1.7vw,1.5rem);line-height:1.45;color:var(--ink);max-width:40ch;
 }
-.quote-inline span{display:block;margin-top:14px;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(23,17,14,.45)}
+.quote-inline span{display:block;margin-top:14px;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(23,17,14,.58)}
 
 .welcome-figure{margin:40px 0 0;max-width:320px}
 .welcome-figure img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:var(--radius)}
@@ -327,14 +327,14 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
 /* ---------- Prices ---------- */
 
 .price-head{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(24px,5vw,64px);align-items:end}
-.price-note{margin:0;justify-self:end;max-width:32ch;font-size:.92rem;line-height:1.75;color:rgba(246,239,229,.5)}
+.price-note{margin:0;justify-self:end;max-width:32ch;font-size:.92rem;line-height:1.75;color:rgba(246,239,229,.62)}
 .price-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px);margin-top:clamp(40px,5vw,64px)}
 .price-col h3{
   margin:0;padding-bottom:18px;border-bottom:1px solid rgba(246,239,229,.24);
   font-family:var(--font-display);font-weight:400;font-size:clamp(1.4rem,2vw,1.75rem);color:var(--cream);
 }
 .price-rows{list-style:none;margin:0;padding:0}
-.price-rows li{display:flex;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(246,239,229,.1);font-size:.94rem;color:rgba(246,239,229,.66)}
+.price-rows li{display:flex;align-items:baseline;padding:17px 0;border-bottom:1px solid rgba(246,239,229,.1);font-size:.94rem;color:rgba(246,239,229,.74)}
 .price-rows .dots{border-bottom-color:rgba(246,239,229,.26)}
 .price-rows .amt{font-family:var(--font-display);font-weight:400;font-size:clamp(1.3rem,1.7vw,1.55rem);color:var(--cream);letter-spacing:.01em;font-variant-numeric:lining-nums;font-feature-settings:'lnum' 1}
 .price-foot{
@@ -342,7 +342,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   margin-top:clamp(36px,4vw,56px);padding-top:clamp(24px,3vw,34px);
   border-top:1px solid rgba(246,239,229,.16);
 }
-.price-foot p{margin:0;font-size:.92rem;color:rgba(246,239,229,.55)}
+.price-foot p{margin:0;font-size:.92rem;color:rgba(246,239,229,.68)}
 
 /* ---------- Steps ---------- */
 
@@ -362,7 +362,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
 .band-title{margin:20px 0 22px;font-family:var(--font-display);font-weight:300;font-size:clamp(2rem,3.4vw,3.1rem);line-height:1.06;letter-spacing:-.01em;color:var(--cream)}
 .band-title em{color:var(--gold-soft);font-style:italic}
 .band-copy p{margin:0 0 14px;font-size:.98rem;line-height:1.8;color:rgba(246,239,229,.62);max-width:46ch}
-.band-sign{margin-top:26px;font-family:var(--font-display);font-style:italic;font-size:1.02rem;color:rgba(246,239,229,.42)}
+.band-sign{margin-top:26px;font-family:var(--font-display);font-style:italic;font-size:1.02rem;color:rgba(246,239,229,.58)}
 
 /* ---------- Find us ---------- */
 
@@ -370,7 +370,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
 .find-list{margin:34px 0 0;padding:0}
 .find-list > div{display:grid;grid-template-columns:104px 1fr;gap:18px;padding:15px 0;border-top:1px solid rgba(23,17,14,.13)}
 .find-list > div:last-child{border-bottom:1px solid rgba(23,17,14,.13)}
-.find-list dt{font-size:10px;letter-spacing:.19em;text-transform:uppercase;color:rgba(23,17,14,.45);padding-top:4px}
+.find-list dt{font-size:10px;letter-spacing:.19em;text-transform:uppercase;color:rgba(23,17,14,.58);padding-top:4px}
 .find-list dd{margin:0;font-size:.94rem;line-height:1.62;color:rgba(23,17,14,.76)}
 .find-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
 .find-map{position:relative;aspect-ratio:4/5;min-height:400px;border:1px solid rgba(23,17,14,.12);border-radius:var(--radius);overflow:hidden;background:var(--sand)}
@@ -404,7 +404,7 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
   vertical-align:2px;
 }
 .hours-table tr.closed td{opacity:.5}
-.hours-note{margin:22px 0 0;font-size:.85rem;line-height:1.7;color:rgba(23,17,14,.5);max-width:34ch}
+.hours-note{margin:22px 0 0;font-size:.85rem;line-height:1.7;color:rgba(23,17,14,.6);max-width:34ch}
 
 .acc{margin-top:30px;border-top:1px solid rgba(23,17,14,.15)}
 .acc-item{border-bottom:1px solid rgba(23,17,14,.15)}
@@ -471,18 +471,18 @@ a.hero-fact-value:hover{text-decoration-color:var(--gold-soft)}
 .footer-inner{display:grid;grid-template-columns:1.6fr 1fr 1fr .85fr;gap:clamp(26px,4vw,56px);padding-bottom:clamp(40px,5vw,60px)}
 .footer-brand .brand-name{color:var(--cream);font-size:23px}
 .footer-brand .brand-sub{opacity:.5}
-.footer-brand p{margin:20px 0 0;max-width:28ch;font-size:.88rem;line-height:1.75;color:rgba(246,239,229,.5)}
-.footer-col h3{margin:0 0 16px;font-size:9.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:rgba(246,239,229,.4)}
+.footer-brand p{margin:20px 0 0;max-width:28ch;font-size:.88rem;line-height:1.75;color:rgba(246,239,229,.6)}
+.footer-col h3{margin:0 0 16px;font-size:9.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:rgba(246,239,229,.55)}
 .footer-col p{margin:0 0 8px;font-size:.89rem;line-height:1.7}
 .footer-col a{transition:color .25s}
 .footer-col a:hover{color:var(--cream)}
-.footer-col .muted{color:rgba(246,239,229,.34);font-size:.82rem}
+.footer-col .muted{color:rgba(246,239,229,.5);font-size:.82rem}
 .footer-links{list-style:none;margin:0;padding:0}
 .footer-links li{margin-bottom:9px;font-size:.89rem}
 .footer-bottom{
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   border-top:1px solid rgba(246,239,229,.12);padding-block:22px 28px;
-  font-size:.78rem;letter-spacing:.02em;color:rgba(246,239,229,.38);
+  font-size:.78rem;letter-spacing:.02em;color:rgba(246,239,229,.52);
 }
 .footer-bottom p{margin:0}
 
